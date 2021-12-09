@@ -1,7 +1,8 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", arial;
   padding: 0;
   margin: 0;
+  color: #44077a;
 }
 
 ul {
@@ -21,7 +22,6 @@ li a {
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #44077a;
 }
 
 #logo {
@@ -34,6 +34,7 @@ li a {
   justify-content: space-around;
   flex: 1;
   font-size: large;
+  background-color: #44077a;
 }
 
 .right-side {
@@ -47,7 +48,9 @@ li a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  margin-top: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #44077a;
 }
 
 .hero-text {
@@ -68,7 +71,6 @@ li a {
 #hero-button {
   display: flex;
   background-color: #f9f9f9;
-  border: 1.5px solid #f9f9f93e;
   border-radius: 20px;
   padding: 10px;
   font-size: 1.2rem;
@@ -78,4 +80,90 @@ li a {
 
 #hero-image {
   width: 500px;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 52px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+.info {
+  text-align: center;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 8px;
+  outline: gold solid 3px;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.quote-section h3 {
+  font-size: 20pt;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.quote-section b {
+  text-align: right;
+}
+
+.call-to-action {
+  background-color: rgba(85, 0, 255, 0.305);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin: 50px 200px;
+}
+
+.cta-text {
+  text-align: left;
+}
+
+.cta-button {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+#cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #44077a;
+  color: white;
+  padding: 12.5px;
 }
